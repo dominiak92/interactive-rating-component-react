@@ -1,0 +1,129 @@
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+}
+
+.card {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+}
+.card__rating {
+  border-radius: 15px;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.card__title {
+  margin: 0;
+  margin-top: 16px;
+  color: #FFFFFF;
+  font-size: 28px;
+}
+.card__description {
+  color: #969FAD;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.card__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card__button {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  border: none;
+  background-color: #262e38;
+  color: #969FAD;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.card__button:hover {
+  background-color: #979797;
+  color: #FFFFFF;
+}
+.card__submitButton {
+  background-color: #FC7614;
+  border: none;
+  width: 279px;
+  height: 45px;
+  margin-top: 24px;
+  border-radius: 22.5px;
+  color: #FFFFFF;
+  letter-spacing: 1.87px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  line-height: 17.72px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.2s linear;
+}
+.card__submitButton:hover {
+  background-color: #FFFFFF;
+  color: #FC7614;
+}
+
+.selected {
+  background-color: #FC7614;
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #262E38;
+  background-image: url(/src/images/icon-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.thanku {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.thanku__img {
+  width: 144px;
+  height: 96px;
+  margin-top: 10px;
+}
+.thanku__state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FC7614;
+  width: 168px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #262e38;
+  border-radius: 22.5px;
+  margin-bottom: 0;
+}
+.thanku__title {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  margin-top: 24px;
+}
+.thanku__description {
+  text-align: center;
+  font-size: 14px;
+  color: #979797;
+  margin-top: 17px;
+}/*# sourceMappingURL=style.css.map */
