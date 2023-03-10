@@ -7,7 +7,7 @@ const RatingButtons = (props) => {
   const valueHandler = (event) => {
     const clickedValue = Number(event.target.textContent);
     setValue(clickedValue);
-    props.onChildValueChange(clickedValue)
+    props.onChildValueChange(clickedValue);
   };
   return (
     <div className="card__buttons">
@@ -15,7 +15,7 @@ const RatingButtons = (props) => {
         <button
           onClick={valueHandler}
           key={buttonValue}
-          className={`card__button${buttonValue === value ? ' selected' : ''}`}
+          className={`card__button${buttonValue === value ? " selected" : ""}`}
         >
           {buttonValue}
         </button>
